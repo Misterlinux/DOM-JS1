@@ -1,0 +1,85 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background: linear-gradient(10deg, white, #f1d557 );
+}
+
+.titolo {
+    text-align: center;
+}
+
+.riga{
+    display: flex;
+    flex-direction: row;
+}
+
+.riga div{
+    margin: 20px 22px;
+    flex: 1;
+}
+
+.riga .centrato{
+    text-align: center;
+}
+
+.towel{
+    text-align: center;
+}
+
+.towel button{
+    margin: 10% auto;
+    padding: 0.8em 0.3em;
+    color: brown;
+
+}
+
+div .numba{
+    text-align: center;
+    margin: 10px auto;
+    width: 10%;
+    padding: 10px 10px;
+    border: 1px brown solid;
+}
+
+.sommato{
+    text-align: center;
+}
+
+.sommato div{
+    margin: 10px auto;
+    width: 10%;
+    padding: 10px 5px;
+    border: 1px brown solid;
+    border-radius: 10%;
+}
+
+.rigato div{
+    margin: 10px;
+}
+
+button.refresh{
+    margin: 20px 0px;
+}
+
+@media only screen and (max-width: 500px){
+    div .numba{
+        width: 15%;
+        padding: 5px 0px;
+        margin: auto;
+    }
+    .riga{
+        display: flex;
+        flex-direction: column;
+    }
+    .riga div{
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+    .towel button {
+        margin: 5% auto;
+    }
+
+}

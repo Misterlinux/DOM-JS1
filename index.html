@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="titolo">
+        <h2>Randomize, sum and store</h2>
+        <p>Welcome to the sum randomizer, we can pick a couple of random numbers AND choose to sum them or not, use liste to see the past numbers</p>
+    </div>
+
+    <div class="riga">
+        <div class="centrato">
+            this is the box for the number
+            <div class="numba" id="primo">
+
+            </div>
+        </div>
+
+        <div class="towel">
+            <button onclick="rando()">
+                Randomized pair
+            </button>
+            <button onclick="summin()">
+                Sum them
+            </button>
+        </div>
+
+        <div class="centrato">
+            second random number
+            <div class="numba" id="secondo">
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="sommato">
+        this is where the sum
+        <div id="terzi">
+        
+        </div>
+    </div>
+
+    <button onclick="rigato()">liste</button>
+
+    <div class="rigato">
+        <div id="colla1">
+
+        </div>
+        <div id="colla2">
+
+        </div>
+    </div>
+
+
+
+    <button class="refresh"><a href="/">refresh</a></button>
+
+    <script src="./script.js">  
+    </script>
+
+</body>
+</html>
